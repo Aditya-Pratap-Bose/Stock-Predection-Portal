@@ -86,7 +86,7 @@ const Register = () => {
 
               {success && (
                 <div className="alert alert-success">
-                  Regestration Successful.
+                  Registration Successful.
                 </div>
               )}
 
