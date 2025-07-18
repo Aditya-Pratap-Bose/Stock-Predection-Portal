@@ -32,7 +32,7 @@ const Register = () => {
       setSuccess(true);
     } catch (error) {
       setErrors(error.response.data);
-      console.log("Registration Error: ", error.response.data);
+      console.error("Registration Error: ", error.response.data);
     } finally {
       setLoading(false);
     }
