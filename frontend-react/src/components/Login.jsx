@@ -30,7 +30,7 @@ const Login = () => {
       console.log("Login Successful");
       setIsLoggedIn(true)
 
-      navigate("/");
+      navigate("/dashboard");
     } catch (error) {
       console.error("Invaild credentails");
       setError("Invaild credentails");

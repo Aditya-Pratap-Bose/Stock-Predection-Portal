@@ -15,7 +15,7 @@ const Main = () => {
             Consequatur, natus recusandae esse doloremque architecto sequi!
             Ipsum, laboriosam modi!
           </p>
-          <Button text="Login" class="btn-outline-info" />
+          <Button text="Explore Now" class="btn-info" url="/dashboard" />
         </div>
       </div>
     </>
